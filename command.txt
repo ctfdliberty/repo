@@ -1,0 +1,1 @@
+kubectl create secret generic ctfd-secret --from-literal=secret-key=$(head -c 64 /dev/urandom | base64)
